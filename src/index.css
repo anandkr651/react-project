@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  /* color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: "DM Serif Display", serif;
+  text-shadow: 2px 2px 2px rgb(65, 68, 68);
+  line-height: 1.8rem;
+  word-spacing: 0.2rem;
+}
+
+button,
+input {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: #cec9c9;
+}
+button:hover,
+input:hover {
+  border-color: #646cff;
+}
+
+.selected {
+  border-color: #646cff;
+}
+.incorrect {
+  border-color: rgb(230, 14, 14);
+}
+.correct {
+  border-color: #4beb0b;
+}
+
+
