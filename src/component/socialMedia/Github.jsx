@@ -8,7 +8,11 @@ function Github() {
   async function fetchurl() {
     const response = await fetch(`https://api.github.com/users/${userName}`);
     const data = await response.json();
-    setUserData(data);
+
+    if(data){
+      setUserData(data);
+      setUserName("");
+    }
   }
 
   function handleClick() {
