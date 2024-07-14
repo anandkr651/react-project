@@ -5,18 +5,14 @@
 @tailwind utilities;
 
 
-:root {
-  /* color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424; */
-  
+:root {  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   font-family: "DM Serif Display", serif;
-  text-shadow: 2px 2px 2px rgb(65, 68, 68);
+  /* text-shadow: 2px 2px 2px rgb(217, 226, 226); */
   line-height: 1.8rem;
   word-spacing: 0.2rem;
 }
