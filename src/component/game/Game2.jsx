@@ -12,7 +12,7 @@ function App({ data }) {
   useEffect(function onMount() {
     const alloptions = Object.entries(data).flat();
     setOptions(_.shuffle(alloptions));
-  }, [match]);
+  }, [match,data]);
 
   function handleClick(e) {
     const { target } = e;

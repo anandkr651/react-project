@@ -25,7 +25,7 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold uppercase">Follow us</h2>
                             <ul className="font-medium">
                                 <li className="mb-4" >
-                                    <Link to="socialMedia" className="hover:underline">
+                                    <Link to="/socialMedia" className="hover:underline">
                                         Github
                                     </Link>
 
@@ -36,12 +36,12 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold uppercase">Enjoy the Game</h2>
                             <ul className="font-medium">
                                 <li className="mb-4" >
-                                    <Link to="game1" className="hover:underline">
+                                    <Link to="/game1" className="hover:underline">
                                         Tic-Tact-Toe Game
                                     </Link>
                                 </li>
                                 <li className="mb-4" >
-                                    <Link to="game2" className="hover:underline">
+                                    <Link to="/game2" className="hover:underline">
                                         Country-Capital Game
                                     </Link>
                                 </li>
@@ -53,6 +53,3 @@ export default function Footer() {
         </footer>
     );
 }
-
-
-

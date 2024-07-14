@@ -30,14 +30,6 @@ export default function Header() {
     };
   }, []);
 
-
-
-
-
-
-
-
-
   return (
     <header className="shadow sticky z-50 top-0 dark:bg-black bg-white">
       <nav className="px-4 border-2 rounded-full ">

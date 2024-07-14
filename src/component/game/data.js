@@ -5,6 +5,6 @@ const Data= {
     'Afghanistan':'Kabul',
     'France':'Paris',
     'Germany':'Berlin',
-    'England':'Londan'
+    'England':'London'
 }
 export default Data

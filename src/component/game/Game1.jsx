@@ -45,6 +45,7 @@ function handleClick(getCurrentIndex){
 function handleRestart(){
   setXTurn(true)
   setSquares(Array(9).fill(""))
+  setStatus('')
 }
 
 useEffect(()=>{

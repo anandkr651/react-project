@@ -1,11 +1,10 @@
 function About() {
-  // border-4 border-yellow-400
   return (
     <div className="dark:bg-black pt-10">
-    <div className='flex justify-between  mx-16  rounded-3xl p-8 bg-gradient-to-r from-blue-700 hover:bg-blue-300'>
+    <div className='flex justify-between mx-16 rounded-3xl p-8 bg-gradient-to-r from-blue-700 hover:bg-blue-300'>
         <div className="flex flex-col justify-center place-items-center ml-4">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxW9oayPWGT5FanQDBmKBo3LWhX4Gw3yEhjQ&s" alt="" className='mb-10 rounded-3xl'/>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz1WHOK90fE0LZjtz6gzK11Srn5I6tselfRg&s" alt="" className='rounded-3xl'/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxW9oayPWGT5FanQDBmKBo3LWhX4Gw3yEhjQ&s" alt="college building" className='mb-10 rounded-3xl'/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz1WHOK90fE0LZjtz6gzK11Srn5I6tselfRg&s" alt="Principal Sir" className='rounded-3xl'/>
         </div>
       <div className='font-semibold italic w-3/4 dark:text-white'>
         <h1 className='text-4xl mb-6'>The Glory of College of Commerce, Arts & Science</h1>
