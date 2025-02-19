@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 function Square({value,onclick}){
   return(
-    <button onClick={onclick} className='w-24 h-24 px-0 text-center cursor-pointer text-4xl float-left border-2  border-yellow-400'>{value}</button>
+    <button onClick={onclick} className='w-24 h-24 px-0 text-center cursor-pointer text-4xl float-left border-2 border-yellow-400'>{value}</button>
   )
 }
 

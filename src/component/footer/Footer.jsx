@@ -3,8 +3,7 @@ export default function Footer() {
     return (
         <footer className="dark:bg-black border-y ">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                <div className="md:flex md:justify-between dark:text-white tracking-widest">
-                    
+                <div className="md:flex md:justify-between dark:text-white tracking-widest">                 
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 ">
                         <div>
                             <h2 className="mb-6 text-sm font-semibold uppercase">Resources</h2>

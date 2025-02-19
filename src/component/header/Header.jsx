@@ -7,12 +7,6 @@ export default function Header() {
   const [scrollPer, setScrollPer] = useState(0);
 
   function handleScroll() {
-    // console.log(
-    //   document.body.scrollTop,
-    //   document.documentElement.scrollTop,
-    //   document.documentElement.scrollHeight,
-    //   document.documentElement.clientHeight
-    // );
     const howMuchScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
     const height =
@@ -35,7 +29,6 @@ export default function Header() {
       <nav className="px-4 border-2 rounded-full ">
         <ul className="flex font-medium justify-center space-x-8 ">
           <li>
-            
             <NavLink
               to="/"
               className={({ isActive }) =>

@@ -1,0 +1,23 @@
+# when you can deploy on vercel then you can create a file name 'vercel.json'
+{
+    "rewrites":[
+        {
+            "source":"/(.*)",
+            "destination":"/"
+        }
+    ]
+}
+
+# when you can change darkmode to lightmode then you can go to the tailwind.config.js file
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode:"class",
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
